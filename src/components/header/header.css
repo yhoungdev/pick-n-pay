@@ -8,8 +8,14 @@
 }
 
 .cancel {
-    float: right;
-    cursor: pointer;
+     float: right;
+     cursor: pointer;
+     position: absolute;
+     top: 3px;
+     right: 1em;
+     font-size: 2em;
+            
+    
 }
 
 header {
@@ -54,12 +60,12 @@ header ul li {
         display: block;
         visibility: visible;
         color: white;
-        
+        padding: 2em;
         overflow: hidden;
     }
 
     .side {
-        background-color: rgba(12, 4, 32, 0.822);
+        background-color: rgba(12, 4, 32, 0.876);
         position: absolute;
         top: 0;
         left: 0;
@@ -68,10 +74,11 @@ header ul li {
         bottom: 0;
         z-index: 1;
         text-align: center;
-        overflow: hidden;
+        overflow: scroll;
         font-family: poppins;
         font-size: 1.3em;
         transition: 1s ease-in-out;
+        
         
        
 
@@ -95,6 +102,12 @@ header ul li {
         display: block;
     }
     
+    .inner {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+    }
     
 }
 

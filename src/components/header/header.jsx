@@ -23,7 +23,7 @@ function Header() {
                 </ul>
             </nav>
 
-            <h5 onClick={()=>setOpen('35vh')} className='burger-open'><FaHamburger/></h5>
+            <h5 onClick={()=>setOpen('100%')} className='burger-open'><FaHamburger/></h5>
             
         </header>
 
@@ -33,14 +33,16 @@ function Header() {
         <div className="sidebar" >
             
           <div className="side" style={{height:open}}>
-          <span className='cancel' onClick={()=> setOpen('0px')}>&times;</span>
+            
+            <span className='cancel' onClick={()=> setOpen('0px')}>&times;</span>
+            <div className="div inner">
+             <ul>
              
-          <ul>
-          
-                <li> Home </li>
-                <li> About Pick n Pay  </li>
-                <li> Contact us </li>
-            </ul>
+                   <li> Home </li>
+                   <li> About Pick n Pay  </li>
+                   <li> Contact us </li>
+               </ul>
+            </div>
           </div>
         </div>
        </>
