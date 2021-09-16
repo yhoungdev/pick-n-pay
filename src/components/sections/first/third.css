@@ -1,0 +1,64 @@
+.pop {
+    background-color: rebeccapurple;
+    height: 100vh;
+    background-image: url('../images//middle2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000f6;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    font-family: poppins;
+
+}
+
+.cover {
+    background-color: rgba(8, 7, 7, 0.794);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.div h2 {
+    font-size: 5em;
+    font-family: poppins;
+
+}
+
+.about p {
+    font-family: montserrat;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+.middle {
+
+    display: flex;
+    
+    
+    
+
+}
+
+@media screen and (max-width:670px) {
+    .middle-text {
+       font-size: 2.5em !important;
+       font-family: poppins;
+       font-weight: 500;
+       
+    }
+
+    .about p {
+        font-family: montserrat;
+        font-size: 1.2em;
+        text-align: center;
+        
+    }
+}

@@ -1,0 +1,100 @@
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+   
+}
+
+.cancel {
+    float: right;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 6em;
+    color: white;
+}
+
+header ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+header ul li {
+    margin-left: 9em;
+    cursor: pointer;
+}
+
+
+.sidebar {
+    display: none;
+}
+
+.burger-open {
+    display: none;
+}
+/* for small screens */
+@media  screen and (max-width:760px) {
+    header ul li {
+        margin-left: 4em;
+        cursor: pointer;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 2em;
+    }
+
+    .sidebar {
+        display: block;
+        visibility: visible;
+        color: white;
+        
+        overflow: hidden;
+    }
+
+    .side {
+        background-color: rgba(12, 4, 32, 0.822);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        text-align: center;
+        overflow: hidden;
+        font-family: poppins;
+        font-size: 1.3em;
+        transition: 1s ease-in-out;
+        
+       
+
+    }
+
+    .side ul li {
+        margin-top: 1em;
+        cursor: pointer;
+      
+    }
+
+    .side ul li:hover {
+        color: rgb(231, 231, 231);
+    }
+
+    .desktop-hide {
+        display: none;
+    }
+
+    .burger-open {
+        display: block;
+    }
+    
+    
+}
+

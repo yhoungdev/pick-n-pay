@@ -1,0 +1,79 @@
+
+
+.hero {
+  
+    
+    background-image: url('../assets/hero.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    margin-top: 0;
+    
+}
+
+.hero .overlay {
+    background: #0b151de5;
+    height: 100vh;
+    color: white;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+
+}        
+
+.hero-img {
+    width: 100%;
+}
+
+.intro {
+    font-size: 6em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+} 
+
+.role {
+
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.role p {
+    font-size: 2em;
+}
+
+
+/* small screen */
+
+@media screen and (max-width: 670px) {
+    .hero-img {
+       
+    }
+
+    .intro {
+        font-size: 10vw;
+    }
+
+    .sm-row {
+        
+        
+        display: flex;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .role {
+        position: absolute;
+        padding: 0.5em;
+    }
+
+    .role p {
+        font-size:1.5em;
+        font-size: montserrat;
+    }
+}

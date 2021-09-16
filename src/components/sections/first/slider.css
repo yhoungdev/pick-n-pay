@@ -1,0 +1,23 @@
+.slide-img {
+    
+}
+
+.legend {
+  display: none;
+}
+
+@media screen and (min-width:670px) {
+
+    .slide-img {
+        width: 70vw !important;
+        
+        
+    }
+
+    .carousel .thumb  {
+        height: 7em;
+        width: 6em !important;
+        border-radius: 5px;
+    }
+    
+}

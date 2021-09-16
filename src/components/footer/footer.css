@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: rgb(241, 241, 241);
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    display: inline-flexbox;
+}
+
+.social span {
+    font-size: 1.2em;
+    margin-left: 1em;
+}
+
+footer  p {
+    font-family: montserrat;
+    font-style: normal;
+    font-size: 1.3em;
+    color: rgb(44, 44, 44);
+    line-height: 170.5%;
+}
+@media screen and (max-width:670px){
+    footer {
+        padding: 1em;
+        margin-top: 2em;
+    }   
+
+    .plogo {
+        width: 30vw;
+        margin-bottom: 1em;
+    }
+
+    footer  p {
+        font-size: 1em;
+    }
+
+
+}

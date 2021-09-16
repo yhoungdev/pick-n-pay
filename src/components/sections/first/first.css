@@ -1,0 +1,117 @@
+.first-img {
+    width: 15vw;
+}
+
+.btn {
+    color: white;
+    border-radius: 0px;
+}
+
+.flow {
+    overflow: hidden;
+}
+
+.details {
+    
+    font-family: montserrat;
+    font-style: normal;
+    font-size: 1.8em;
+    font-size: 100;
+    color: rgb(44, 44, 44);
+    
+    line-height: 170.5%;
+/* or 36px */
+
+  text-align: justify;
+}
+
+
+
+.heading {
+    color: #082032;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+
+
+
+
+/* identical to box height, or 71px */
+
+}
+
+.btn {
+    
+    padding: 16px 50px;
+    background: #840A02;
+    border: none;
+    outline: none;
+
+}
+.flow {
+    overflow: hidden;
+    padding: 6em;
+}
+.shop {
+    position: relative;
+    
+}
+.shop h1 {
+    position: absolute;
+    width: 668px;
+    height: 430px;
+    left: 400px;
+    top: -0.8em;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 242px;
+    line-height: 177.5%;
+/* identical to box height, or 430px */
+
+
+    color: rgba(185, 185, 185, 0.116);
+    z-index: -1;
+    
+
+}
+
+
+
+@media screen and (max-width:670px) {
+    .shop h1 {
+        position: absolute;
+        top: 1em;
+        left:0;
+        
+    }
+    .first-img {
+        width: 100%;
+        height: 80;
+    }
+
+    .details {
+        font-size: 1em;
+        
+    }
+
+    .heading {
+        font-size: 1.5em;
+        margin-top: 1em;
+        font-family: poppins;
+        font-style: normal;
+    }
+
+    .flow {
+        padding: 0.2em;
+        
+    }
+}
+
+@media screen and (min-width:670px) {
+    .detailed {
+        padding-right: 5em;
+    }
+}

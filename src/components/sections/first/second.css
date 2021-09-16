@@ -1,0 +1,27 @@
+.second {
+  flex-direction: row-reverse;
+  
+  
+}
+
+.along {
+    position: relative;
+}
+.along h1 {
+    position: absolute;
+    width: 668px;
+    height: 430px;
+    bottom: -2.3em;
+    right: 2em;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 242px;
+    line-height: 177.5%;
+/* identical to box height, or 430px */
+
+
+    color: rgba(209, 205, 205, 0.198);
+    z-index: -1;
+}

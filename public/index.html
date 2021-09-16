@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Montserrat:wght@300;400;700;800&family=Poppins:wght@200;300;500;600;900&display=swap');
+     </style>
+     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,5 +41,11 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+    </script>
   </body>
 </html>
