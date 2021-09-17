@@ -28,9 +28,7 @@ function Hero() {
 
                                                     <p> Enjoy the best shopping experience for you and your family and friends  </p>
                                                     <span>
-                                                        <Button style={{
-                                                            backgroundColor:'black'
-                                                        }}>Shop now</Button>
+                                                        <Button className='hero-btn'>Shop now  &#8594;</Button>
                                                     </span>
 
                                             </div>

@@ -1,25 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pick n PAy",
+  "name": "Pick n Pay Shopping",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://picknpayng.com/wp-content/uploads/2019/10/pnp-nigeria.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLEnZzUjUXh_hboo47ffl1R7y3ogi5Ghi-Ag&usqp=CAU",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLEnZzUjUXh_hboo47ffl1R7y3ogi5Ghi-Ag&usqp=CAU",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#114063",
   "background_color": "#ffffff"
 }

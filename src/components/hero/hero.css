@@ -47,6 +47,9 @@
     font-size: 2em;
 }
 
+.hero-btn {
+    background-color: #00000096 !important;
+}
 
 /* small screen */
 

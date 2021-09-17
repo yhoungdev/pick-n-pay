@@ -22,7 +22,7 @@ function Home() {
            <Third/>
           
             
-           <First img={vanila} heading={'Tasty and Nice Creams'} shade={"WITH"} detail={'Here at Pick n Pay we take pride in the quality of the meat used for each and every burger. If it’s not perfect and grilled just the way you ordered it, we won’t send it out.  We guarantee the burger delivered to your table is the best burger you could have ordered.'}/>
+           <First img={'https://images.unsplash.com/photo-1578875858391-50798bc2ffee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjgxNDQxfQ&utm_source=api_app&utm_medium=referral&utm_campaign=api-credit'} heading={'Tasty and Nice Creams'} shade={"Family"} detail={'Here at Pick n Pay we take pride in the quality of the meat used for each and every burger. If it’s not perfect and grilled just the way you ordered it, we won’t send it out.  We guarantee the burger delivered to your table is the best burger you could have ordered.'}/>
             <Footer/>
         
         </>

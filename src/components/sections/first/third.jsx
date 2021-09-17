@@ -33,7 +33,7 @@ function Third() {
                         </div>
 
                         <center>
-                         <button className='btn'>Shop Now</button>
+                         <button className='btn'>Check it out &#8594;</button>
                         </center>
                         </div>
 

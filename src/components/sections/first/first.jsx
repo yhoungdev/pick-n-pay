@@ -26,7 +26,7 @@ function First( props ) {
                         </p>
 
                         <span>
-                            <Button className='btn'>Shop now</Button>
+                            <Button className='btn'>Shop now   &#8594;</Button>
                         </span>
                     </div>
                 </Col>
